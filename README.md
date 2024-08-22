@@ -1,9 +1,6 @@
-# Socket.IO chat example
+#i just study Docker and u can clone and build with it
+docker build -t chat-app-mvc
+#then 
+docker run -p 3005:3005 chat-app-mvc
 
-This is the source code for a very simple chat example used for the [Tutorial](https://socket.io/docs/v4/tutorial/introduction) guide of the Socket.IO website.
-
-You can run this example directly in your browser on:
-
-- [CodeSandbox](https://codesandbox.io/p/sandbox/github/socketio/chat-example?file=index.js)
-- [StackBlitz](https://stackblitz.com/github/socketio/chat-example?file=index.js)
-- [Repl.it](https://repl.it/github/socketio/chat-example)
+or u can use npm install for run this code
